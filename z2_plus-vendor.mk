@@ -320,7 +320,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgsl.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdr_tm.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libjni_dualcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_dualcamera.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so \
@@ -428,13 +427,11 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdi.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libqdp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdp.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libqmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libqmi_cci.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_cci.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libqmi_client_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_client_helper.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libqmi_client_qmux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_client_qmux.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libqmi_common_so.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_common_so.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libqmi_csi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_csi.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_encdec.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmiservices.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libqomx_jpegdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegdec.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
@@ -557,7 +554,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libgeofence.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgeofence.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgsl.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr_tm.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib64/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libidl.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libizat_client_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libizat_client_api.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libizat_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libizat_core.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libjni_clearsight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_clearsight.so \
@@ -588,7 +584,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libqdp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdp.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libqisl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqisl.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libqmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib64/libqmi_cci.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_cci.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libqmi_client_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_client_helper.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libqmi_client_qmux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_client_qmux.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libqmi_common_so.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_common_so.so \
@@ -597,7 +592,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/liblearningmodule.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblearningmodule.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libqmi_csi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_csi.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_encdec.so \
-    vendor/zuk/z2_plus/proprietary/vendor/lib64/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmiservices.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-perfd-client.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libqti-perfd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-perfd.so \
     vendor/zuk/z2_plus/proprietary/vendor/lib64/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-util.so \
@@ -680,7 +674,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/zuk/z2_plus/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/zuk/z2_plus/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
-    vendor/zuk/z2_plus/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/zuk/z2_plus/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/zuk/z2_plus/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
     vendor/zuk/z2_plus/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
@@ -711,7 +704,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
     vendor/zuk/z2_plus/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/zuk/z2_plus/proprietary/etc/init/wfdservice.rc:system/etc/init/wfdservice.rc \
-    vendor/zuk/z2_plus/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/zuk/z2_plus/proprietary/framework/com.quicinc.cne.api-V1.1-java.jar:system/framework/com.quicinc.cne.api-V1.1-java.jar \
     vendor/zuk/z2_plus/proprietary/framework/com.quicinc.cne.constants-V1.0-java.jar:system/framework/com.quicinc.cne.constants-V1.0-java.jar \
     vendor/zuk/z2_plus/proprietary/framework/com.quicinc.cne.constants-V2.0-java.jar:system/framework/com.quicinc.cne.constants-V2.0-java.jar \
@@ -720,8 +712,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_plus/proprietary/framework/com.quicinc.cne.server-V2.0-java.jar:system/framework/com.quicinc.cne.server-V2.0-java.jar \
     vendor/zuk/z2_plus/proprietary/framework/com.quicinc.cne.server-V2.1-java.jar:system/framework/com.quicinc.cne.server-V2.1-java.jar \
     vendor/zuk/z2_plus/proprietary/framework/com.quicinc.cne.server-V2.2-java.jar:system/framework/com.quicinc.cne.server-V2.2-java.jar \
-    vendor/zuk/z2_plus/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
-    vendor/zuk/z2_plus/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/zuk/z2_plus/proprietary/framework/vendor.qti.data.factory-V1.0-java.jar:system/framework/vendor.qti.data.factory-V1.0-java.jar \
     vendor/zuk/z2_plus/proprietary/framework/vendor.qti.hardware.data.dynamicdds-V1.0-java.jar:system/framework/vendor.qti.hardware.data.dynamicdds-V1.0-java.jar \
     vendor/zuk/z2_plus/proprietary/framework/vendor.qti.hardware.data.latency-V1.0-java.jar:system/framework/vendor.qti.hardware.data.latency-V1.0-java.jar \
@@ -974,4 +964,11 @@ PRODUCT_PACKAGES += \
     ReferenceFeature \
     libantradio \
     com.qualcomm.location \
-    datastatusnotification
+    datastatusnotification \
+    libidl \
+    libqmi_cci \
+    libqmiservices \
+    com.qti.dpmframework \
+    dpmapi \
+    tcmclient \
+    com.qti.location.sdk
