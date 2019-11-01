@@ -651,7 +651,6 @@ PRODUCT_PACKAGES += \
     CNEService \
     WfdService \
     ims \
-    qcrilmsgtunnel \
     PowerOffAlarm \
     TimeService \
     WfdCommon \
